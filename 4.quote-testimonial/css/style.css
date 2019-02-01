@@ -1,0 +1,37 @@
+h1{
+	padding-left: 60px;
+	padding-bottom:60px;
+	font-family:Arial;
+	z-index:2;
+}
+
+img{
+	z-index:1;
+	width: 60px;
+	height:60px;
+	z-index:3;
+}
+
+.surge{
+	color: green;
+}
+
+.citation{
+	font-family: Arial;
+	font-size: 30px;
+	text-align:center;
+	}
+	
+.personne{
+	font-family: Arial;
+	font-size: 15px;
+	color:#666666;
+	z-index:2;
+	padding-right: 270px;
+}
+
+.Henrik{
+	float:left;
+	padding-left:270px;
+	z-index:3;
+}
