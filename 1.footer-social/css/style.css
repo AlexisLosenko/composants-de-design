@@ -1,0 +1,64 @@
+body{
+	
+	font-family: Times;
+	background-color: black;
+	font-size:10px;
+}
+
+footer{
+    background-color: white;
+
+}
+footer{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    display: flex;
+	max-width: 800px;
+    max-height: 500px;
+}
+footer ul{
+    list-style-type: none;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+	padding-top:20px;
+    
+}
+footer li{
+    display: inline-block;
+    color: grey;
+    position: relative;
+	padding-bottom: 10px;
+	
+}
+
+footer li a{
+    position: relative;
+    text-decoration: none;
+    color: #fbfbfb;
+    padding-bottom: 10px;
+}
+footer img{
+    max-width: auto;
+    height: 23px;
+    position: relative;
+	top: 10px;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+footer li .right{
+	text-align: right;
+	float:right;
+	padding-left: 700x;
+	padding-right: -100px;
+}
+
+footer li .espace{
+	padding-left:400px
+}
+
