@@ -1,0 +1,42 @@
+body{
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 400px 200px;
+  grid-template-rows: 200px 200px 400px;
+  grid-gap: 0;
+}
+.text{
+	grid-column:1/3;
+	grid-row:2;
+	z-index:2;
+}
+
+
+.h1{
+  font-family:abadi;
+}
+
+.desc{
+	font:abadi;
+	font-size: 17px;
+}
+
+img{
+	grid-column: 2;
+	grid-row:1
+	
+}
+
+#mybutton {
+    padding:12px 0 12px 0;
+	font:Bold 13px abadi;
+	background:Yellow;
+	color:black;
+	width:160px;
+	border-radius:2px;
+	border:none;
+	text-align:center;
+	margin-left: 30px;
+}
